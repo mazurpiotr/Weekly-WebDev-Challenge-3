@@ -1,2 +1,3 @@
-# super-duper-octo-meme
-Weekly WebDev Challenge 3
+# Weekly-WebDev-Challenge-3
+
+Live: https://mazurpiotr.github.io/Weekly-WebDev-Challenge-3/. 

@@ -1,0 +1,125 @@
+*, *:before, *:after {
+    font-family: 'Roboto Slab', serif;
+    font-size: 10px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #beaaaa;
+    --dark-text-color: #555555;
+    --brand-color: #ae9c9c;
+}
+
+body {
+    min-width: 256px;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    min-height: 115px;
+    position: relative;
+    z-index: 9999;
+}
+
+.navbar a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #000000;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: var(--dark-text-color);
+    font-size: 1.8rem;
+}
+
+.logo {
+    background-image: url(img/logo.png);
+    width: 30px;
+    height: 30px;
+    margin: 2rem;
+}
+
+.navbar-links {
+    background-color: rgba(255,255,255,0.8);
+    text-align: right;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 80px;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 300ms ease-in-out;
+}
+
+.navbar-links a {
+    display: block;
+    color: var(--text-color);
+    font-size: 1.4rem;
+    margin: 1.2rem;
+    margin-right: 2rem;
+    opacity: 0;
+    transition: opacity 250ms ease-in-out;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle:checked ~.navbar-links {
+    transform: scale(1,1);
+}
+.nav-toggle:checked ~.navbar-links a {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+}
+
+.nav-toggle-label {
+    display: inline-block;
+    cursor: pointer;
+    margin: 2rem;
+}
+
+.nav-toggle-label:hover span {
+    background-color: var(--dark-text-color);
+}
+
+.nav-toggle-label span {
+    display: block;
+    background-color: #beaaaa;
+    height: 3px;
+    width: 3rem;
+    margin: 6px 0px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-toggle-label {
+      display: none;
+    }
+
+    .navbar-links {
+        text-align: right;
+        position: initial;
+        transform: scale(1,1);
+    }
+
+    .navbar-links a {
+        display: inline;
+        opacity: 1;
+    }
+}
+/* END OF NAVBAR */

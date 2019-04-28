@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Svg Vector Icons : http://www.onlinewebfonts.com/icon -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 1000 1000"
+   enable-background="new 0 0 1000 1000"
+   xml:space="preserve"
+   id="svg10"
+   sodipodi:docname="check-circled.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><defs
+   id="defs14" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1280"
+   inkscape:window-height="733"
+   id="namedview12"
+   showgrid="false"
+   inkscape:zoom="0.236"
+   inkscape:cx="500"
+   inkscape:cy="500"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g8" />
+<metadata
+   id="metadata2"> Svg Vector Icons : http://www.onlinewebfonts.com/icon <rdf:RDF><cc:Work
+     rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata>
+<g
+   id="g8"><path
+     d="M 500,990 C 405.87009,990 315.82528,963.62781 238.23213,914.41598 207.92182,895.19229 179.51154,872.48345 153.5,846.5 60.9,754 10,630.9 10,500.1 10,369.2 61,246.2 153.5,153.6 246,61 369.1,10 500,10 630.9,10 753.9,61 846.5,153.5 939.1,246.1 990,369.1 990,500.1 990,631 939,754 846.5,846.5 754,939 630.9,990 500,990 Z M 500,61.6 C 258.2,61.6 61.6,258.2 61.6,500 61.6,741.8 258.2,938.4 500,938.4 741.7,938.4 938.4,741.7 938.4,500 938.4,258.3 741.8,61.6 500,61.6 Z"
+     id="path4"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="sssssscssssssss"
+     style="fill:#ffffff" /><path
+     d="M396.8,706.3c-6.6,0-13.2-2.5-18.3-7.5L223.8,544c-10.1-10.1-10.1-26.4,0-36.5c10.1-10.1,26.4-10.1,36.5,0l136.5,136.5l342.8-342.8c10.1-10.1,26.4-10.1,36.5,0c10.1,10.1,10.1,26.4,0,36.5L415,698.8c-5.1,5.1-11.7,7.5-18.3,7.5H396.8z"
+     id="path6"
+     style="fill:#ffffff" /></g>
+</svg>

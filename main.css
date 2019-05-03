@@ -217,7 +217,7 @@ cite {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 0 5% 3rem;
+    padding: 0 5% 1.8rem;
     text-align: center;
 }
 
@@ -227,23 +227,34 @@ cite {
 
 /* BUTTONS */
 .btn {
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
-    color: #fff;
+    background-color: var(--btn-background-color);
+    /* text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7); */
+    border-radius: 4rem;
+    padding: 2rem 2.5rem;
+    margin-bottom: 1.6rem;
+    text-transform: uppercase;
     font-family: 'Montserrat';
+    text-decoration: none;
     font-size: 1.6rem;
     font-weight: 700;
-    text-transform: uppercase;
-    background-color: var(--btn-background-color);
-    padding: 2rem 2.5rem;
-    border-radius: 4rem;
+    color: #fff;
     cursor: pointer;
     transition: .3s;
-    text-decoration: none;
 }
 
 .btn:hover {
     background-color: var(--dark-text-color);
     color: var(--light-text-color);
+}
+
+.btn-contact {
+    border: 0.3rem solid white;
+    border-radius: 0.5rem;
+}
+
+.btn-contact:hover {
+    background-color: white;
+    color: var(--btn-background-color);
 }
 
 /* HOME */
@@ -339,7 +350,7 @@ cite {
     text-align: left;
     display: flex;
     margin: 0 0 1.6rem;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .feature:hover {
@@ -384,7 +395,7 @@ cite {
     text-transform: uppercase;
     font-size: 1.8rem;
     cursor: pointer;
-    margin: 3.2rem 0 0;
+    margin: 3.2rem 0 1.6rem;
     text-decoration: none;
 }
 
@@ -455,6 +466,7 @@ cite {
         transform: translateX(-50%);
     }
 }
+/* END OF VALUES SECTION */
 
 /* CLIENTS */
 .clients-wrapper {
@@ -498,3 +510,92 @@ cite {
     transform-origin: center center;
     transform: translate(-50%) rotate(45deg);
 }
+/* END OF CLIENTS */
+
+/* CONTACT */
+.section-contact {
+    background-color: var(--btn-background-color);
+}
+/* END OF CONTACT */
+
+/* RECOMMENDATIONS */
+.section-recommendations {
+    padding-top: 1.8rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: none;
+}
+
+.section-recommendations img {
+    margin: 1.6rem;
+    width: 200px;
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: all 0.2s ease-in-out;
+}
+
+.section-recommendations img:hover {
+    filter: grayscale(0);
+    opacity: 1;
+}
+/* END OF CRECOMMENDATIONS */
+
+/* CONTACT US / LATEST */
+.section-news {
+    background-color: #222222;
+    padding: 1.8rem 0 0;
+    color: white;
+    font-size: 1.4rem;
+    flex-direction: column-reverse;
+}
+
+.section-news address, .section-news a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.row {
+    margin: 0.8rem;
+}
+
+.media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1.6rem;
+}
+
+.media:nth-of-type(1) {
+    margin-top: 3.2rem;
+}
+
+.media a, .media span {
+    font-size: 1.4rem;
+    color: white;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.media-tag {
+    font-weight: bold;
+}
+
+.media-body {
+    text-align: left;
+}
+
+.media-body:hover a {
+    color: var(--btn-background-color);
+}
+
+.media-img {
+    width: 2.3rem;
+    margin-right: 1.6rem;
+    flex-shrink: 0;
+}
+
+.media-img-top {
+    align-self: flex-start;
+}
+/* END OF CONTACT US / LATEST */
